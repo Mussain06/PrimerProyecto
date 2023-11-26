@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.fotos{
+    height: 300px;
+    background-image: url(back4.png);
+    background-size: cover;
+
+}
+
+.contactanos h1{
+    font-size: 1.9em;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(40,89,182);
+}
+
+.contactanos h4{
+    margin: 20px;
+    color: rgb(40,89,182);
+}
+
+.flex-contacto{
+    border: 5px solid rgb(40,89,182);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre-apellido, .email-telefono{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nombre, .appelido, .email, .telefono, .direccion{
+    margin-top: 14px;
+    margin-left: 27px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: rgb(40,89,182);
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.des-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-apellido, .input-name, .input-email, .input-telefono, .input-di{
+    margin: 0 29px;
+    height: 29px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(40,89,182);
+}
+
+.submits{
+    margin: 30px 40px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    border: none;
+    color: #fff;
+    background-color: rgb(40,89,182);
+}
+
+
+.verde{
+    color: rgb(116, 255, 51);
+    font-size: 1.3em;
+}
+
+.rojo{
+    color: rgb(255, 51, 51);
+    font-size: 1.3em;
+}
+
+
+.container-contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto{
+    background-color: rgb(40,89,182);   
+    padding: 30px;
+    color: #fff;
+}
+
+.texts, .h1-contact{
+    margin: 10px;
+}
+
+.h1-contact{
+    font-weight: bold;
+}
+
+hr{
+    border: 1px solid #fff;
+}
+
+.icon-container{
+    display: flex;
+}
+
+.icon-container div{
+    margin-left: 20px;
+}
+
+.form-contact{
+    padding: 20px;
+    text-align: center;
+    color: rgb(40,89,182);
+}
+
+.form-contact p{
+    margin: 40px;
+    font-size: 20px;
+}
+
+.input-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    margin: 15px 20px;
+    height: 40px;
+    border: none;
+    border-bottom: 3px solid rgb(40,89,182);
+    outline: none;
+    transition: all 0.7s;
+    text-align: center;
+}
+
+.input:focus{
+    border-color: rgb(135,81,189);
+}
+
+.input:hover{
+    background-color: rgb(0,0,0,0.1);
+}
+
+.input::placeholder{
+    color: rgb(40,89,182);
+    font-size: 15px;
+}
+
+.submit{
+    margin: 30px 40px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    color: rgb(135,81,189);
+    background-color: #fff;
+}
+
+footer{
+    text-align: center;
+    color: rgb(40,89,182);
+}
+
+.img{
+    height: 80px;
+    width: 80px;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .fotos{
+        height: 500px;
+    }
+
+    .contactanos h1{
+        font-size: 3em;
+        transform: translateY(50px);
+    }
+
+    .contactanos h4{
+        font-size: 1.9em;
+        margin-left: 50px;
+        margin-top: 130px;
+    }
+
+    .contactanos{
+        margin: 0 140px;
+        height: 900px;
+        transform: translateY(-200px);
+        background-color: #fff;
+    }
+
+    .flex-contacto{
+        height: 650px;
+        justify-content: space-around;
+        margin:  0 50px;
+    }
+
+    .nombre-apellido, .email-telefono{
+        flex-direction: row;
+    }
+
+    .cont{
+        width: calc(100%/2);
+    }
+    .input-apellido, .input-name, .input-email, .input-telefono, .input-di{
+        margin: 0 50px;
+    }
+    .nombre, .appelido, .email, .telefono, .direccion{
+        font-size: 1.6em;
+        margin-left: 47px;
+    }
+
+    .submits{
+        height: 100px;
+    }
+
+    .container-contact{
+        flex-direction: row;
+    }
+    .container-contact{
+        margin: 0 50px;
+    }
+    .contacto{
+        flex-grow: 3;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .form-contact{
+        flex-shrink: 2;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

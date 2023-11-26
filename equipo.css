@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.verde{
+    color: rgb(116, 255, 51);
+    font-size: 1.3em;
+}
+
+.rojo{
+    color: rgb(255, 51, 51);
+    font-size: 1.3em;
+}
+
+.fotos{
+    width: 100vw;
+    height: 250px;
+    background-image: url(background-contacto.png);
+    background-size: cover;
+}
+
+
+.Textos{
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(40,89,182);
+}
+
+.Textos p{
+    margin: 30px 40px;
+}
+
+.equipo{
+    height: 1500px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.foto{
+    height: 300px;
+    width: 400px;
+}
+
+.f1{
+    background-image: url(per1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.f2{
+        background-image: url(per2.png);
+        background-size: cover;
+        background-position: center;
+}
+
+.f3{
+        background-image: url(per3.png);
+        background-size: cover;
+        background-position: center;
+}
+
+.nombre{
+    height: 90px;
+    width: 400px;
+    text-align: center;
+    border-top: 5px solid rgb(40,89,182);
+    color: rgb(40,89,182);
+    padding-top: 14px;
+}
+
+.item{
+    width: 245px;
+}
+
+.item{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(40,89,182);
+}
+
+.item p{
+    margin: 0 120px;
+    text-align: center;
+}
+
+.item h4{
+    margin: 20px 0;
+}
+
+
+.container-contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto{
+    background-color: rgb(40,89,182);   
+    padding: 30px;
+    color: #fff;
+}
+
+.texts, .h1-contact{
+    margin: 10px;
+}
+
+.h1-contact{
+    font-weight: bold;
+}
+
+hr{
+    border: 1px solid #fff;
+}
+
+.icon-container{
+    display: flex;
+}
+
+.icon-container div{
+    margin-left: 20px;
+}
+
+.form-contact{
+    padding: 20px;
+    text-align: center;
+    color: rgb(40,89,182);
+}
+
+.form-contact p{
+    margin: 40px;
+    font-size: 20px;
+}
+
+.input-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    margin: 15px 20px;
+    height: 40px;
+    border: none;
+    border-bottom: 3px solid rgb(40,89,182);
+    outline: none;
+    transition: all 0.7s;
+    text-align: center;
+}
+
+.input:focus{
+    border-color: rgb(135,81,189);
+}
+
+.input:hover{
+    background-color: rgb(0,0,0,0.1);
+}
+
+.input::placeholder{
+    color: rgb(40,89,182);
+    font-size: 15px;
+}
+
+.submit{
+    margin: 30px 40px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    color: rgb(135,81,189);
+    background-color: #fff;
+}
+
+footer{
+    text-align: center;
+    color: rgb(40,89,182);
+}
+
+.img{
+    height: 80px;
+    width: 80px;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .fotos{
+        height: 500px;
+    }
+
+    .Textos{
+        margin: 0 260px;
+        font-size: 1.4em;
+        background-color: #fff;
+        transform: translateY(-100px)
+    }
+
+
+
+
+    .equipo{
+        flex-direction: row;
+        height: 700px;
+    }
+
+    .item{
+        justify-content: center;
+        font-size: 1.3em;
+    }
+
+
+    .container-contact{
+        flex-direction: row;
+    }
+    .container-contact{
+        margin: 0 50px;
+    }
+
+    .foto{
+        height: 400px;
+        width: 300px;
+    }
+
+    .nombre{
+        height: 70px;
+        width: 245px;
+        background-color: #fff;
+        transform: translateY(-50px);
+    }
+
+    .contacto{
+        flex-grow: 3;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .form-contact{
+        flex-shrink: 2;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
