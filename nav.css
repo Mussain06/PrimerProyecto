@@ -9,18 +9,21 @@ body{
 }
 
 .logo{
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
 }
 
 .box-img-menu{
     margin-left: 60px;
+    flex-grow: 1;
 }
 
 
 .logo-text{
     height: 100px;
     display: flex;
+    flex-direction: column;
+
 }
 
 .text{
@@ -28,6 +31,7 @@ body{
     margin-left: 30px;
     text-align: start;
     color: rgb(40,89,182);
+    font-size: 1.3em;
 }
 
 .ul-container{
@@ -44,8 +48,8 @@ body{
 
 .container{
     display: flex;
-    height: 100px;
-    width: 100vw;
+    height: 150px;
+    width: 100%;
     background-color: #fff;
 }
 
