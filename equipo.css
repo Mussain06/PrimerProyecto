@@ -37,7 +37,7 @@
 }
 
 .equipo{
-    height: 1500px;
+    height: 1600px;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@
 
 .foto{
     height: 300px;
-    width: 400px;
+    width: 250px;
 }
 
 .f1{
@@ -68,7 +68,7 @@
 
 .nombre{
     height: 90px;
-    width: 400px;
+    width: 250px;
     text-align: center;
     border-top: 5px solid rgb(40,89,182);
     color: rgb(40,89,182);
@@ -89,7 +89,7 @@
 }
 
 .item p{
-    margin: 0 120px;
+    margin: 0 60px;
     text-align: center;
 }
 

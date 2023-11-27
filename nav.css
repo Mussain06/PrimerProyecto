@@ -79,7 +79,25 @@ body{
 
     .box-img-menu{
         margin-left: 0;
+        margin-top: 20px;
+        flex-grow: 1;
     }
+    
+    .container{
+        height: 150px;
+    }
+
+    .logo-text{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7em;
+    }
+
+    .text{
+        text-align: center;
+    }
+    
     .x-bar{
         margin-left: auto;
         border: none;
@@ -87,7 +105,8 @@ body{
     }
 
     .bars{
-        margin-left: 73px;
+        margin-left: auto;
+        margin-right: 30px;
         align-self: center;
         border: none;
         background-color: rgb(135,81,189);
